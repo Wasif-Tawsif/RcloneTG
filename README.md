@@ -3,6 +3,8 @@
  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+<p align=center><a href="https://render.com/deploy?repo=https://github.com/Wasif-Tawsif/RcloneTG"><img src="https://render.com/images/deploy-to-render-button.svg" width="200"></a></p>
+
 ## Installation
 - First get the following prepared:
   - A @BotFather bot token. [Tutorial](https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token)
