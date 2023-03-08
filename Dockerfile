@@ -31,6 +31,7 @@ RUN apt-get update && apt-get upgrade -y && apt-get autoremove -y
 COPY . /app/
 RUN chmod a+x /app/setup.sh
 RUN chmod a+x /app/start.sh
-RUN npm install | bash
+RUN cd /app && npm install
+#RUN npm install | bash
 CMD ["source", "setup.sh"]
 CMD ["bash", "start.sh"]
