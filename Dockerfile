@@ -1,5 +1,10 @@
-FROM python:3.9
+FROM ubuntu:16.04
+
 WORKDIR /app
+
+
+RUN apt-get update
+RUN apt-get install curl git unzip zip nodejs python3.9 -y
 COPY . /app/
 RUN npm install
 CMD ["source", "setup.sh"]
